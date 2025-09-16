@@ -47,8 +47,8 @@
 ## :dart: About ##
 
 New project :
-- exo1.rb : return the sum of natural integers strictly less than 1000 and which are multiples of 3 or 5.
-- exo2.rb : emails shift encryption
+- multiples.rb : return the sum of natural integers strictly less than 1000 and which are multiples of 3 or 5.
+- caesar_cipher.rb : emails shift encryption
 
 ## :rocket: Technologies ##
 
@@ -69,15 +69,6 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 ```bash
 # Clone this project
 $ git clone https://github.com/MS893/gem
-
-# Access
-$ cd gem
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
 
 # The server will initialize in the <http://localhost:3000>
 ```
