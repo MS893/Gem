@@ -15,3 +15,12 @@ def word_counter(corpus, dictionary)
 
   word_counts # Retourne le hash contenant les mots et leurs comptes (uniquement > 0)
 end
+
+
+# tests avec shakespeare.txt et swearWords.txt
+corpus = File.read "shakespeare.txt"
+dictionnary = ["the", "of", "and", "to", "a", "in", "for", "is", "on", "that", "by", "this", "with", "i", "you", "it", "not", "or", "be", "are"]
+puts word_counter(corpus, dictionnary)
+
+swearWords = File.readlines "swearWords.txt"
+puts word_counter(corpus, swearWords)
