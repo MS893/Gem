@@ -70,7 +70,6 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 # Clone this project
 $ git clone https://github.com/MS893/gem
 
-# The server will initialize in the <http://localhost:3000>
 ```
 
 ## :memo: License ##
